@@ -7,6 +7,8 @@ const Home = () => {
       <TopNavbar />
       <HeaderSlider />
       <AllCatigories />
+      <div className="mb-5 pb-5"></div>
+      <div className="mb-5 pb-5"></div>
       <Footer />
     </Fragment>
   );
