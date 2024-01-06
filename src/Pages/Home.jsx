@@ -1,5 +1,5 @@
 import React, { Fragment } from "react";
-import { TopNavbar, Footer, HeaderSlider, AllCatigories } from "../Components";
+import { TopNavbar, Footer, HeaderSlider, AllCatigories, LatestProducts } from "../Components";
 
 const Home = () => {
   return (
@@ -7,6 +7,7 @@ const Home = () => {
       <TopNavbar />
       <HeaderSlider />
       <AllCatigories />
+      <LatestProducts />
       <div className="mb-5 pb-5"></div>
       <div className="mb-5 pb-5"></div>
       <Footer />
